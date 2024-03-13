@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch --inspect server.js",
+    "dev": "node --env-file=.env --watch --inspect server.js",
     "start":"node server.js"
   },
   "keywords": [],
